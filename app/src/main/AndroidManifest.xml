@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TM"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- HomeActivity declaration -->
+        <activity
+            android:name=".frontend.HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- SecondActivity declaration -->
+        <activity
+            android:name=".frontend.SecondActivity"
+            android:exported="true"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- ProfileActivity declaration -->
+        <activity
+            android:name=".frontend.ProfileActivity"
+            android:exported="true"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- CoursesActivity declaration -->
+        <activity
+            android:name=".frontend.CoursesActivity"
+            android:exported="true"
+            android:label="@string/title_activity_courses"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- SessionsActivity declaration -->
+        <activity
+            android:name=".frontend.SessionsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sessions"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- CourseSearchActivity declaration -->
+        <activity
+            android:name=".frontend.CourseSearchActivity"
+            android:exported="true"
+            android:label="@string/title_activity_course_search"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- CalendarActivity declaration -->
+        <activity
+            android:name=".frontend.CalendarActivity"
+            android:exported="true"
+            android:label="@string/title_activity_calender"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- WeekViewActivity declaration -->
+        <activity
+            android:name=".frontend.WeekViewActivity"
+            android:exported="true"
+            android:label="@string/title_activity_week_view"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- LoginActivity declaration -->
+        <activity
+            android:name=".frontend.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sessions"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- SignupActivity declaration -->
+        <activity
+            android:name=".frontend.SignupActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sessions"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- TutorListActivity declaration -->
+        <activity
+            android:name=".frontend.TutorListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_tutor_list"
+            android:theme="@style/Theme.TM"/>
+
+        <!-- SplashActivity declaration -->
+        <activity
+            android:name=".frontend.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TM">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

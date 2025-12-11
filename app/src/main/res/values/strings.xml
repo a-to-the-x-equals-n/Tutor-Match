@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TM</string>
+    <string name="title_activity_home">Profile</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="title_activity_splash">Profile</string>
+    <string name="title_activity_course_search">Profile</string>
+    <string name="title_course_detail_dialog">Profile</string>
+    <string name="title_activity_calender">Profile</string>
+    <string name="title_activity_week_view">Profile</string>
+    <string name="title_activity_tutor_list">Profile</string>
+    <string name="title_other_profile">Profile</string>
+
+
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_sessions">Sessions</string>
+    <string name="title_activity_calendar">Calendar</string>
+
+     <string name="title_activity_login">Profile</string>
+    <string name="title_activity_signup">Profile</string>
+
+    <string name="back">Back</string>
+    <string name="add_minus">Back</string>
+
+
+
+</resources>

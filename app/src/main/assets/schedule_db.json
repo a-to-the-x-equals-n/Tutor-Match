@@ -1,0 +1,36 @@
+{
+  "f47ac10b-58cc-4372-a567-0e02b2c3d479": {
+    "1": [
+      {"start": 0, "end": 9, "status": "NOT"},
+      {"start": 9, "end": 18, "status": "FREE"},
+      {"start": 18, "end": 24, "status": "NOT"}
+    ],
+    "2": [
+      {"start": 0, "end": 9, "status": "NOT"},
+      {"start": 9, "end": 18, "status": "FREE"},
+      {"start": 18, "end": 24, "status": "NOT"}
+    ],
+    "3": [
+      {"start": 0, "end": 9, "status": "NOT"},
+      {"start": 9, "end": 18, "status": "FREE"},
+      {"start": 18, "end": 24, "status": "NOT"}
+    ],
+    "4": [
+      {"start": 0, "end": 9, "status": "NOT"},
+      {"start": 9, "end": 18, "status": "FREE"},
+      {"start": 18, "end": 24, "status": "NOT"}
+    ],
+    "5": [
+      {"start": 0, "end": 9, "status": "NOT"},
+      {"start": 9, "end": 12, "status": "FREE"},
+      {"start": 13, "end": 20, "status": "NOT"},
+      {"start": 21, "end": 24, "status": "FREE"}
+    ],
+    "6": [
+      {"start": 0, "end": 24, "status": "NOT"}
+    ],
+    "7": [
+      {"start": 0, "end": 24, "status": "NOT"}
+    ]
+  }
+}

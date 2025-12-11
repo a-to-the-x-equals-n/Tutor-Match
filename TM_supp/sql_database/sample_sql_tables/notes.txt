@@ -1,0 +1,36 @@
+CREATE TABLE accounts(
+    id UUID PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    email VARCHAR NOT NULL,
+    password VARCHAR NOT NULL,
+    tutor BOOLEAN NOT NULL,
+    rating FLOAT DEFAULT 0,
+    study_time INTEGER
+);
+
+
+
+CREATE TABLE courses(
+    field VARCHAR(4),
+    course_num VARCHAR(4),
+    title VARCHAR(100)
+);
+
+
+
+CREATE TABLE sessions(
+    id UUID PRIMARY KEY,
+    student_id UUID,
+    date DATE,
+    time INTEGER,
+    reminder INTEGER
+);
+
+
+
+CREATE TABLE schedules(
+    id UUID,
+    date DATE,
+    hour INTEGER,
+    access INTEGER
+);

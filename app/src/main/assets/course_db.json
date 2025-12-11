@@ -1,0 +1,63 @@
+{
+  "f47ac10b-58cc-4372-a567-0e02b2c3d479": [
+    {
+      "field": "CSCI",
+      "courseNum": 1010,
+      "title": "Algorithmic Problem Solving"
+    },
+    {
+      "field": "CSCI",
+      "courseNum": 2400,
+      "title": "Discrete Structures I"
+    },
+    {
+      "field": "CSCI",
+      "courseNum": 3650,
+      "title": "Design and Analysis of Algorithms"
+    },
+    {
+      "field": "CSCI",
+      "courseNum": 3000,
+      "title": "Operating Systems"
+    },
+    {
+      "field": "CSCI",
+      "courseNum": 4602,
+      "title": "Automata, Computability and Complexity"
+    },
+    {
+      "field": "MATH",
+      "courseNum": 2171,
+      "title": "Calculus I"
+    }
+  ],
+  "d3dc3c1d-5c14-4f21-99d2-b1c2c7b8fa66": [
+    {
+      "field": "ENGL",
+      "courseNum": 3600,
+      "title": "Classics from Homer to Dante"
+    },
+    {
+      "field": "HIST",
+      "courseNum": 3410,
+      "title": "History of Ancient Rome"
+    },
+    {
+      "field": "PHYS",
+      "courseNum": 2350,
+      "title": "PUniversity Physics I"
+    },
+    {
+      "field": "CSCI",
+      "courseNum": 1010,
+      "title": "Algorithmic Problem Solving"
+    }
+  ],
+  "a1b2c3d4-e5f6-4789-0a1b-2c3d4e5f6789": [
+    {
+      "field": "CSCI",
+      "courseNum": 1010,
+      "title": "Algorithmic Problem Solving"
+    }
+  ]
+}

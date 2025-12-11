@@ -1,0 +1,3 @@
+# needed for later use with Cloud deployment ( I think... )
+pandas
+python-dotenv
